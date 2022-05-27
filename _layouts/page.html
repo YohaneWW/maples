@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>    
+{% include head.html %}
+
+  <body>
+    <header class="header">
+      <div class="header-container">
+      {% include nav.html %}
+        <h1 class="maples-title">
+            {{ page.title }}
+        </h1>
+        <div class="description2">
+            {{ site.description }}
+        </div>
+      </div>
+    </header>
+    <br />
+    <div class="page-content">
+      <div class="maples-content">
+        {{ content }}
+      </div>
+    </div>
+    
+    {% include footer.html %}
+    
+  </body>
+
+</html>

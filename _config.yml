@@ -1,0 +1,25 @@
+# Site settings
+title: モミジ季節に別離の情に寄せる酒の歌
+description: > # this means to ignore newlines until "baseurl:"
+  ♪ ~ Inevitable swaying, accompany with maples.
+  Someday in the raining.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: https://yohane.art # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+highlighter : rouge
+
+# Author settings
+author:
+  name     : "Yohane"
+
+# paginate
+paginate: 20
+paginate_path: "page:num"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  
